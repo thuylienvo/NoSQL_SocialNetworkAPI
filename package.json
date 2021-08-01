@@ -1,0 +1,29 @@
+{
+  "name": "NoSQL_SocialNetworkAPI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thuylienvo/NoSQL_SocialNetworkAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thuylienvo/NoSQL_SocialNetworkAPI/issues"
+  },
+  "homepage": "https://github.com/thuylienvo/NoSQL_SocialNetworkAPI#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.13.5",
+    "mysql2": "^2.2.5"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "nodemon": "^2.0.12"
+  }
+}
