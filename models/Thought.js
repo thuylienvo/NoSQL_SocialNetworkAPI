@@ -5,7 +5,7 @@ const dateFormat = require('../utils/dateFormat');
 const ReactionSchema = new Schema(
     {
         reactionId: {
-            type: Schema.Types.ObjectId(),
+            type: Schema.Types.ObjectId,
             default: () => new Types.ObjectId(),
         },
         reactionBody: {
@@ -57,10 +57,10 @@ const ThoughtsSchema = new Schema(
   );
 
 
- ThougthsSchema.virtual('reactionCount').get(function() {
+ ThoughtsSchema.virtual('reactionCount').get(function() {
     return this.reactions.length;
   });
   
-  const Thoughts = model('Thoughts', ThoughtsSchema);
+  const Thoughts = model('Thought', ThoughtsSchema);
   
   module.exports = Thoughts;
