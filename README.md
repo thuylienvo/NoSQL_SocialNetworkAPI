@@ -10,7 +10,9 @@ A back-end app with that uses APIs for a social media network where end usera ha
   ## Table of Contents
 
   * [Technologies](#technologies)  
+  * [Usage](#usage)  
   * [Questions](#questions)
+  
 
 
   ## Technologies
@@ -20,6 +22,8 @@ A back-end app with that uses APIs for a social media network where end usera ha
   * Mongoose
   * MongoDB
 
+  ## Usage   
+  Run `npm start`. In order to test routes, you will need to have Insomnia installed and the routes in place to make the neccessary JSON calls. 
 
   ## Questions
   For any questions, connect with me at [mimzy414@gmail.com](mailto:mimzy414@gmail.com). 
